@@ -12,5 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "fastify": "^4.29.0"
+  },
+  "engines": {
+    "node": "18.x"
   }
 }
