@@ -4,7 +4,7 @@ services:
     env: node
     plan: free
     buildCommand: "npm install"
-    startCommand: "cd src && node index.js"
+    startCommand: "node src/index.js"
     envVars:
       - key: PORT
         value: 10000
